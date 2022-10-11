@@ -1,0 +1,6 @@
+node_modules
+.nvmrc
+.github
+coverage
+cypress
+README.md
