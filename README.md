@@ -41,3 +41,14 @@ npm run test:e2e # or `npm run test:e2e:ci` for headless testing
 ```sh
 npm run lint
 ```
+
+## Docker Container
+### Build container
+```
+docker build -f Dockerfile -t sample-app-ui:latest .
+```
+
+### Run container
+```
+docker run -d --rm -p 5000:5000 --env PORT=5000 --name sample-app-ui sample-app-ui:latest
+```
