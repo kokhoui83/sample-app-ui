@@ -28,4 +28,4 @@ jobs:
 
       - run: npm ci
       - run: npm run build --if-present
-      - run: npm rub test:unit:ci
+      - run: npm run test:unit:ci
