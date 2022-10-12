@@ -11,6 +11,7 @@ Sample App UI build using Vue + Vite
 npm install
 ```
 
+## Run
 ### Compile and Hot-Reload for Development
 
 ```sh
@@ -23,6 +24,13 @@ npm run dev
 npm run build
 ```
 
+### Envinronment Variable
+```
+# Server endpoint
+VITE_SERVER_URL = http://localhost:5001 // default
+```
+
+## Testing
 ### Run Headed Component Tests with [Cypress Component Testing](https://on.cypress.io/component)
 
 ```sh
