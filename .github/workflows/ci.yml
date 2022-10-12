@@ -1,4 +1,4 @@
-name: CI
+name: CI Pipeline
 run-name: ${{ github.actor }} is building and testing 🚀
 
 on:
