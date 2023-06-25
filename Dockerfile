@@ -31,4 +31,4 @@ WORKDIR /usr/src/app
 COPY --from=build /usr/src/app/dist ./dist
 
 # serve file via http-server
-CMD ["http-server", "dist"]
+CMD ["http-server", "dist", "-a", "0.0.0.0"]
